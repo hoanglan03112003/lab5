@@ -12,8 +12,8 @@ const json = [
     age: 20,
     adress: "hcm",
     Email: "ad@gmail.com",
-  },
+  }
 ];
 
-const sinhvien = JSON.parse(json);
-console.table(sinhvien);
+const sinhvien = JSON.stringify(json);
+console.table(json);
